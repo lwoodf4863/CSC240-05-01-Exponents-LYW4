@@ -27,38 +27,31 @@ namespace Exponents
         private void xGoButton_Click(object sender, EventArgs e)
         {
             // STORAGE
-            int num; // square, cube;
 
             // INPUT
-            num = Convert.ToInt32(xInputTextBox.Text);
 
             // PROCESS
             /* calculate the square of the number and add it to the output - 
              * do this with a method call that allows you to pass the number
              * and then receive the answer */
-            //square = num * num;
-            xOutputLabel.Text = String.Format("Square = {0}", Square(num));
 
             /* calculate the cube of the number and add it to the output - 
              * do this by creating a methd as in the squaring example above */
-            //cube = num * num * num;
-            xOutputLabel.Text += String.Format("\nCube = {0}", Cube(num));
 
             // OUTPUT
             // set the output to visible
-            xOutputLabel.Visible = true;
 
             // turn the Go button off
         }
 
         public int Square(int num)
         {
-            return num * num; // we will create this code in class
+            // we will create this code in class
         }
 
         public int Cube(int num)
         {
-            return num * num * num; // we will create this code in class
+            // we will create this code in class
         }
 
         private void xResetButton_Click(object sender, EventArgs e)
