@@ -1,6 +1,6 @@
 ﻿namespace Exponents
 {
-    partial class Form1
+    partial class UxExponentsForm
     {
         /// <summary>
         /// Required designer variable.
@@ -85,7 +85,7 @@
             this.xResetButton.UseVisualStyleBackColor = true;
             this.xResetButton.Click += new System.EventHandler(this.xResetButton_Click);
             // 
-            // Form1
+            // UxExponentsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -96,7 +96,7 @@
             this.Controls.Add(this.xInputLabel);
             this.Controls.Add(this.UxInputTextBox);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form1";
+            this.Name = "UxExponentsForm";
             this.Text = "Exponents Demo";
             this.ResumeLayout(false);
             this.PerformLayout();
